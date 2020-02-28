@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 process_number=int(input("How many values should we process: "))
-for i in range(1,process_number):
+for i in range(1,process_number+1):
        number = int(input())
        if number%3 == 0  and number%5 == 0:
                     print("fizzBuzz")
